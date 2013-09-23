@@ -12,6 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'simple_form'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+gem 'aws-sdk'
 
 group :production do
 	gem 'pg'
