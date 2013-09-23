@@ -11,7 +11,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'simple_form'
-gem 'paperclip', '~> 3.4.2' #github: 'thoughtbot/paperclip', branch: 'rails-4'
+gem 'paperclip', :git => "git://github.com/thoughtbot/paperclip.git" 
+# '~> 3.4.2' 
+#github: 'thoughtbot/paperclip', branch: 'rails-4'
 gem 'aws-sdk'
 
 group :production do
