@@ -15,6 +15,7 @@ gem 'paperclip', :git => "git://github.com/thoughtbot/paperclip.git"
 # '~> 3.4.2' 
 #github: 'thoughtbot/paperclip', branch: 'rails-4'
 gem 'aws-sdk'
+gem 'faker'
 
 group :production do
 	gem 'pg'
